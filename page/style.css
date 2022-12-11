@@ -1,0 +1,59 @@
+@font-face {
+    font-family: font;
+    src: url("font/JUST\ Sans\ Regular.otf");
+}
+
+body {
+    margin: 0px;
+    font-family: font;
+    background-color: #0d1117;
+}
+
+#mainHolder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header {
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+#inputHolder {
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#command {
+    width: calc(100% - 100px - 20px);
+    padding: 5px 10px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid rgba(240,246,252,0.1);
+}
+
+#send-command {
+    cursor: pointer;
+    width: 100px;
+    margin-left: 20px;
+    padding: 9px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    background-color: #21262d;
+    border: 1px solid rgba(240,246,252,0.1);
+}
+
+#send-command:hover {
+    background-color: #30363d;
+    border-color: #8b949e;
+    transition-duration: .2s;
+}
